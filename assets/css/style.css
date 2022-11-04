@@ -8,4 +8,37 @@
 }
 body {
     font-family: Lato, sans-serif;
+    height: 3000px;
+}
+
+/* remove default list style */
+li {
+    list-style: none;
+}
+
+/* remove default underline for a */
+a {
+    text-decoration: none;
+}
+
+/* define a common width */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: #f8f8f8;
+}
+.logo {
+    margin-left: 50px;
+}
+.logo a {
+    color: #ff0000;
+    font-weight: bolder;
 }
