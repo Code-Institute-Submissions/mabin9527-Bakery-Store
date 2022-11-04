@@ -30,15 +30,33 @@ a {
 /* header start */
 
 header {
-    position: fixed;
-    top: 0;
     height: 50px;
     background-color: #f8f8f8;
 }
 .logo {
-    margin-left: 50px;
+    float: left;
+    margin: 0 50px;
 }
 .logo a {
     color: #ff0000;
     font-weight: bolder;
+    letter-spacing: 2px;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 14px;
+    font-weight: 700;
+    color: #777;
+}
+.user {
+    float: right;
+}
+.user span {
+    float: right;
+    padding-top: 14px;
+    color: #777;
 }
