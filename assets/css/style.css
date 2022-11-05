@@ -69,7 +69,7 @@ nav li a {
 section:first-child {
     margin-top: 50px;
 }
-.slide img {
+.img {
     width: 100%;
     height: 600px;
 }
@@ -83,3 +83,39 @@ section:first-child {
     cursor: pointer;
     transition: ease 500ms;
 }
+.slide {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.img {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+    z-index: 8
+}
+input[type=radio]:nth-child(1):checked~div.cur label:nth-child(1){
+    background-color: #ccc;
+}
+input[type=radio]:nth-child(2):checked~div.cur label:nth-child(2){
+    background-color: #ccc;
+}
+input[type=radio]:nth-child(3):checked~div.cur label:nth-child(3){
+    background-color: #ccc;
+}
+input[type=radio]:nth-child(4):checked~div.cur label:nth-child(4){
+    background-color: #ccc;
+}
+input[type=radio]:nth-child(1):checked~div.img>ul>li:not(:nth-child(1)){
+   display: none;
+}
+input[type=radio]:nth-child(2):checked~div.img>ul>li:not(:nth-child(2)){
+   display: none;
+}
+input[type=radio]:nth-child(3):checked~div.img>ul>li:not(:nth-child(3)){
+   display: none;
+}
+input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
+    display: none;
+ }
