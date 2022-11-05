@@ -63,6 +63,23 @@ nav li a {
     padding-top: 14px;
     color: #777;
 }
+/* header end */
+/* slides start */
+
 section:first-child {
     margin-top: 50px;
+}
+.slide img {
+    width: 100%;
+    height: 600px;
+}
+.slide label {
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    transition: ease 500ms;
 }
