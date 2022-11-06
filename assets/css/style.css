@@ -148,3 +148,14 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     font-weight: 700;
     color: #777;
 }
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: pink;
+}
+.circle img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
