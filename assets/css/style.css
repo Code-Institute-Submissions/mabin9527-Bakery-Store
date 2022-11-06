@@ -143,6 +143,9 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 /* Slides End */
 /* Dasboard start */
 
+.dashboard {
+    margin-bottom: 50px;
+}
 .dashboard h2 {
     text-align: center;
     font-weight: 700;
@@ -178,17 +181,6 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-}
-.wrods::after {
-    content: "";
-	width: 30px;
-	height: 30px;
-	border: 15px solid red;
-	border-color: red transparent transparent transparent;
-	position:absolute;
-	
-
 }
 p {
     color:#777;
@@ -229,4 +221,24 @@ p {
     line-height: 30px;
     border-radius: 15px;
     color: #777;
+}
+/* Dashboard end */
+/* Daily special start */
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+/* Make daily-special img at the heart of circle container by using display: flex  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+}
+.circle1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
 }
