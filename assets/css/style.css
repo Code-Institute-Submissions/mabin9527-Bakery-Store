@@ -181,12 +181,18 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 }
 p {
     color:#777;
+    margin: 10px;
 }
 .icon {
-    margin: 10px;
+    margin: 10px 20px;
     width: 120px;
     height: 30px;
-    background-color: pink;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+.icon span {
+    line-height: 30px;
 }
 .icon span:nth-child(2) {
     margin: 0 5px;
