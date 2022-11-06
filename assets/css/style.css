@@ -178,12 +178,24 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+.wrods::after {
+    content: "";
+	width: 30px;
+	height: 30px;
+	border: 15px solid red;
+	border-color: red transparent transparent transparent;
+	position:absolute;
+	
+
 }
 p {
     color:#777;
     margin: 10px;
 }
 .icon {
+    position: relative;
     margin: 10px 20px;
     width: 120px;
     height: 30px;
@@ -193,6 +205,7 @@ p {
 }
 .icon span {
     line-height: 30px;
+    color: #777;
 }
 .icon span:nth-child(2) {
     margin: 0 5px;
@@ -201,4 +214,19 @@ p {
 }
 .icon span:nth-child(3) {
     margin-left: 10px;
+}
+/* Add comments to news */
+
+.icon::after {
+    content: "Comments (88)";
+    position: absolute;
+    top: -1px;
+    right: -140px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    color: #777;
 }
