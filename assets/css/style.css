@@ -27,7 +27,7 @@ a {
     margin: 0 auto;
 }
 
-/* header start */
+/* Header start */
 
 header {
     position: fixed;
@@ -65,8 +65,8 @@ nav li a {
     padding-top: 14px;
     color: #777;
 }
-/* header end */
-/* slides start */
+/* Header end */
+/* Slides start */
 
 .container {
     margin: 50px auto;
@@ -139,4 +139,12 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     left: 50%;
     transform: translateX(-50%);
     z-index: 9;
+}
+/* Slides End */
+/* Dasboard start */
+
+.dashboard h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #777;
 }
