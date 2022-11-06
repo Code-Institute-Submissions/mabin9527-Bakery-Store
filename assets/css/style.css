@@ -152,7 +152,12 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    background-color: pink;
+    background-color: #f8f8f8;
+/* Make dashboard img at the heart of circle container by using display: flex  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
 }
 .circle img {
     width: 250px;
