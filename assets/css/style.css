@@ -269,7 +269,7 @@ p {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 215px;
     background-color: #f8f8f8;
 }
 .location {
@@ -296,4 +296,10 @@ footer {
 }
 .info dl dd {
     margin-bottom: 25px;
+}
+.social a {
+    font-size: 40px;
+    line-height: 215px;
+    color: #777;
+    margin: 20px;
 }
