@@ -273,7 +273,27 @@ footer {
     background-color: #f8f8f8;
 }
 .location {
+    float: left;
     padding: 30px;
     width: 180px;
 }
- 
+.location h3 {
+    color: #777;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.info {
+    float: left;
+}
+.info dl {
+    float: left;
+    margin: 30px 40px;
+    color: #777;
+}
+.info dl dt {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.info dl dd {
+    margin-bottom: 25px;
+}
