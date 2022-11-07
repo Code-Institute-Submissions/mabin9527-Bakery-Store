@@ -276,6 +276,8 @@ p {
     justify-content: center;
     position: relative;
 }
+/* Add a small triangle to give a better vision experience */
+
 .update::after {
     content:"";
     border: 15px solid #ccc;
@@ -336,4 +338,16 @@ footer {
 
 .fl-products {
     margin-top: 60px;
+    box-sizing: border-box;
 }
+
+.fl-products ul li {
+    height: 360px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.fl-products ul li a {
+    color: #777;
+   
+}
+
