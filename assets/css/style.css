@@ -210,7 +210,7 @@ p {
 /* Add comments to news */
 
 .icon::after {
-    content: "Comments (88)";
+    content: "Comments (58)";
     position: absolute;
     top: -1px;
     right: -140px;
@@ -242,3 +242,23 @@ p {
     height: 250px;
     border-radius: 100%;
 }
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.update {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #f8f8f8;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.update h3 {
+    text-align: center;
+    color: #777;
+}
+ 
