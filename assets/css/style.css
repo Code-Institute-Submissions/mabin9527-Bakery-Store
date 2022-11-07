@@ -182,6 +182,20 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+/* Add a small triangle to give a better vision experience */
+
+.words::after {
+    content:"";
+    border: 15px solid #ccc;
+    background-color: none;
+    width: 0;
+    height: 0;
+    border-color: transparent #f8f8f8 transparent transparent;
+    position: absolute;
+    bottom: 30px;
+    left: -30px;
 }
 p {
     color:#777;
@@ -260,6 +274,18 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+}
+.update::after {
+    content:"";
+    border: 15px solid #ccc;
+    background-color: none;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent #f8f8f8;
+    position: absolute;
+    bottom: 30px;
+    right: -30px;
 }
 .update h3 {
     text-align: center;
@@ -307,3 +333,7 @@ footer {
 /* Footer end */
 
 /* Western-dessert page start */
+
+.fl-products {
+    margin-top: 60px;
+}
