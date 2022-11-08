@@ -497,5 +497,18 @@ form {
     margin-bottom: 5px;
     font-weight: 900;
 }
+#login-btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+/* remove default border for button */
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+}
+#login-btn:hover {
+    cursor: pointer;
+}
 
 
