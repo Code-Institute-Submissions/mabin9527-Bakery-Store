@@ -346,6 +346,7 @@ footer {
     height: 360px;
     border: 1px solid #ccc;
     padding: 15px;
+    position: relative;
 }
 .fl-products ul li a {
     color: #777;
@@ -357,5 +358,23 @@ footer {
 .fl-products img {
     width: 266px;
     height: 266px;
+}
+/* Add shopping-cart and heart above images */
+
+.fl-products ul li span {
+    position: absolute;
+    bottom: 120px;
+    left: 105px;
+    font-size: 30px;
+    transition: 3s;
+    visibility: hidden;
+    color: #fff;
+}
+.fl-products ul li span:last-child {
+    bottom: 120px;
+    left: 175px;
+}
+.fl-products ul li:hover span {
+    visibility: visible;
 }
 
