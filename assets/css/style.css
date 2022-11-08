@@ -339,6 +339,7 @@ footer {
 .fl-products {
     margin-top: 60px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .fl-products ul li {
@@ -375,6 +376,49 @@ footer {
     left: 175px;
 }
 .fl-products ul li:hover span {
+    visibility: visible;
+}
+
+.sl-products {
+    margin-top: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sl-products ul li {
+    float: left;
+    height: 360px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    position: relative;
+}
+.sl-products ul li a {
+    color: #777;
+}
+.sl-products p {
+    text-align: center;
+    font-weight: 700;
+}
+.sl-products img {
+    width: 266px;
+    height: 266px;
+}
+/* Add shopping-cart and heart above images */
+
+.sl-products ul li span {
+    position: absolute;
+    bottom: 120px;
+    left: 105px;
+    font-size: 30px;
+    transition: 3s;
+    visibility: hidden;
+    color: #fff;
+}
+.sl-products ul li span:last-child {
+    bottom: 120px;
+    left: 175px;
+}
+.sl-products ul li:hover span {
     visibility: visible;
 }
 
