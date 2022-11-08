@@ -342,12 +342,20 @@ footer {
 }
 
 .fl-products ul li {
+    float: left;
     height: 360px;
     border: 1px solid #ccc;
     padding: 15px;
 }
 .fl-products ul li a {
     color: #777;
-   
+}
+.fl-products p {
+    text-align: center;
+    font-weight: 700;
+}
+.fl-products img {
+    width: 266px;
+    height: 266px;
 }
 
