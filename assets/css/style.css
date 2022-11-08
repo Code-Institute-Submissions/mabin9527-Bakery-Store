@@ -422,3 +422,18 @@ footer {
     visibility: visible;
 }
 
+/* Login page start */
+
+section {
+    margin: 40px 0 10px 0;
+}
+form {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
