@@ -592,6 +592,21 @@ form {
 .product-description p:last-child span:hover {
     background-color: black;
     color:#fff;
+    cursor: pointer;
+}
+.product-description button {
+    width: 20%;
+    height: 50px;
+    border-radius: 50px;
+    color: #f8f8f8;
+    background-color: #777;
+    border: none;
+    outline: none;
+}
+.product-description button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
 }
 
 
