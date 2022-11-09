@@ -577,6 +577,22 @@ form {
     color: black;
     font-weight: 900;
 }
+.product-description p:nth-child(5) {
+    color: black;
+    font-weight: 900;
+}
+.product-description p:last-child span {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.product-description p:last-child span:hover {
+    background-color: black;
+    color:#fff;
+}
 
 
 
