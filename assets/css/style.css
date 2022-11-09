@@ -544,6 +544,7 @@ form {
 .product {
     margin-top: 50px;
     display: flex;
+    color: #777;
 }
 .product-img {
     width: 40%;
@@ -565,5 +566,17 @@ form {
     flex-direction: column;
     justify-content: space-between;
 }
+.product-description p:nth-child(1) span {
+    color: black;
+    font-weight: 900;
+}
+.product-description h1 {
+    margin-left: 8px;
+}
+.product-description strong {
+    color: black;
+    font-weight: 900;
+}
+
 
 
