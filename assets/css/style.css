@@ -440,9 +440,10 @@ form {
     justify-content: center;
     align-items: center;
 }
-/* Define login-content container */
+/* Define login-content and register container */
 
-.login-content {
+.login-content,
+.register-content {
     position: relative;
     width: 800px;
     height: 360px;
@@ -512,5 +513,8 @@ form {
 #login-btn:hover {
     cursor: pointer;
 }
+
+/* Register form start */
+
 
 
