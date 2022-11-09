@@ -539,4 +539,17 @@ form {
     outline: none;
     font-size: 18px;
 }
+/* Red-velvet-cake introduction start */
+
+.product {
+    margin-top: 50px;
+    
+}
+.product-img {
+    width: 40%;
+}
+.product-img img {
+    width: 100%;
+}
+
 
