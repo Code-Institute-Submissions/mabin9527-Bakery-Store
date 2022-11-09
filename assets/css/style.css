@@ -543,7 +543,7 @@ form {
 
 .product {
     margin-top: 50px;
-    
+    display: flex;
 }
 .product-img {
     width: 40%;
@@ -557,6 +557,13 @@ form {
 .product-img img:hover {
     cursor: pointer;
     transform: scale(1.2);
+}
+.product-description {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
