@@ -60,6 +60,7 @@ nav li a {
 }
 .user {
     float: right;
+/* maintain the consistentstate with logo */
     margin-right: 50px;
 }
 .user span {
