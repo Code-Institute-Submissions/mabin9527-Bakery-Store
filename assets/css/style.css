@@ -594,7 +594,10 @@ form {
     color:#fff;
     cursor: pointer;
 }
-.product-description button {
+.number {
+    margin-left: 1%;
+}
+.number button {
     width: 20%;
     height: 50px;
     border-radius: 50px;
@@ -602,12 +605,31 @@ form {
     background-color: #777;
     border: none;
     outline: none;
+    margin-left: 5%;
+    margin-bottom: 3%;
 }
-.product-description button:hover {
+.number button:hover {
     cursor: pointer;
     background-color: black;
     color: #fff;
 }
+
+.number span {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 25px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+.number span:nth-child(odd):hover {
+    background-color: black;
+    color: #fff;
+}
+
+
 
 
 
