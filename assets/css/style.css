@@ -24,7 +24,7 @@ a {
 
 /* define a common width */
 .w {
-    width: 1200px;
+    width: 75rem;
     margin: 0 auto;
 }
 
@@ -34,64 +34,64 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
+    height: 3.13rem;
 /* Changed: Add z-index and give it a higher value to avoid fixed-nav bar covered by slides images. */
     z-index: 999;
     background-color: #f8f8f8;
 }
 .logo {
     float: left;
-    margin: 0 50px;
+    margin: 0 3.13rem;
 }
 .logo a {
     color: #ff0000;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: .13rem;
 }
 nav li {
     float: left;
 }
 nav li a {
     display: inline-block;
-    line-height: 50px;
-    margin: 0 14px;
+    line-height: 3.13rem;
+    margin: 0 .88rem;
     font-weight: 700;
     color: #777;
 }
 .user {
     float: right;
 /* maintain the consistentstate with logo */
-    margin-right: 50px;
+    margin-right: 3.13rem;
 }
 .user span {
     float: right;
-    padding-top: 14px;
+    padding-top: .88rem;
     color: #777;
 }
 /* Header end */
 /* Slides start */
 
 .container {
-    margin: 30px auto;
+    margin: 1.88rem auto;
 }
 .img img {
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
 }
 .slide label {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: .31rem;
     border: 1px solid #ccc;
     border-radius: 100%;
-    width: 15px;
-    height: 15px;
+    width: .94rem;
+    height: .94rem;
     cursor: pointer;
     transition: ease 500ms;
 }
 .slide {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
 }
 .img {
     position: absolute;
@@ -131,14 +131,14 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     width: 100%;
 }
 .img ul li {
-    height: 600px;
+    height: 37.5rem;
     flex: 1;
 }
 /* position the button in the center of images */
 
 .cur {
     position: absolute;
-    bottom: 10px;
+    bottom: .63rem;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9;
@@ -147,7 +147,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 /* Dasboard start */
 
 .dashboard {
-    margin-bottom: 50px;
+    margin-bottom: 3.13rem;
 }
 .dashboard h2 {
     text-align: center;
@@ -161,8 +161,8 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     align-items: center;
 }
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     border-radius: 100%;
     background-color: #f8f8f8;
 /* Make dashboard img at the heart of circle container by using display: flex  */
@@ -172,15 +172,15 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     border: 1px solid #ccc;
 }
 .circle img {
-    width: 250px;
-    height: 250px;
+    width: 15.63rem;
+    height: 15.63rem;
     border-radius: 100%;
 }
 .words {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     background-color: #f8f8f8;
-    height: 200px;
+    height: 12.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,39 +190,39 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 
 .words::after {
     content:"";
-    border: 15px solid #ccc;
+    border: .94rem solid #ccc;
     background-color: none;
     width: 0;
     height: 0;
     border-color: transparent #f8f8f8 transparent transparent;
     position: absolute;
-    bottom: 30px;
-    left: -30px;
+    bottom: 1.88rem;
+    left: -1.879rem;
 }
 p {
     color:#777;
-    margin: 10px;
+    margin: .63rem
 }
 .icon {
     position: relative;
-    margin: 10px 20px;
-    width: 120px;
-    height: 30px;
+    margin: .625rem 1.25rem;
+    width: 7.5rem;
+    height: 1.88rem;
     border: 1px solid #ccc;
-    padding-left: 15px;
-    border-radius: 15px;
+    padding-left: .94rem;
+    border-radius: .94rem;
 }
 .icon span {
-    line-height: 30px;
+    line-height: 1.88rem;
     color: #777;
 }
 .icon span:nth-child(2) {
-    margin: 0 5px;
+    margin: 0 .31rem;
     border-right: 1px solid #ccc;
-    padding-right: 10px;
+    padding-right: .625rem;
 }
 .icon span:nth-child(3) {
-    margin-left: 10px;
+    margin-left: .625rem;
 }
 /* Add comments to news */
 
@@ -230,24 +230,24 @@ p {
     content: "Comments (58)";
     position: absolute;
     top: -1px;
-    right: -140px;
-    width: 120px;
-    height: 30px;
+    right: -8.75rem;
+    width: 7.5rem;
+    height: 1.88rem;
     border: 1px solid #ccc;
     text-align: center;
-    line-height: 30px;
-    border-radius: 15px;
+    line-height: 1.88rem;
+    border-radius: 1.88rem;
     color: #777;
 }
 /* Dashboard end */
 /* Daily special start */
 
 .daily-special {
-    margin-bottom: 50px;
+    margin-bottom: 3.13rem;
 }
 .circle1 {
-    width: 300px;
-    height: 300px;
+    width: 18.8rem;
+    height: 18.8rem;
     border-radius: 100%;
     background-color: #f8f8f8;
 /* Make daily-special img at the heart of circle container by using display: flex  */
@@ -258,8 +258,8 @@ p {
     border: 1px solid #ccc;
 }
 .circle1 img {
-    width: 250px;
-    height: 250px;
+    width: 15.63rem;
+    height: 15.63rem;
     border-radius: 100%;
 }
 .menu {
@@ -270,9 +270,9 @@ p {
 }
 .update {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     background-color: #f8f8f8;
-    height: 200px;
+    height: 12.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,14 +282,14 @@ p {
 
 .update::after {
     content:"";
-    border: 15px solid #ccc;
+    border: .94rem solid #ccc;
     background-color: none;
     width: 0;
     height: 0;
     border-color: transparent transparent transparent #f8f8f8;
     position: absolute;
-    bottom: 30px;
-    right: -30px;
+    bottom: 1.88rem;
+    right: -1.879rem;
 }
 .update h3 {
     text-align: center;
@@ -300,55 +300,55 @@ p {
 
 footer {
     width: 100%;
-    height: 215px;
+    height: 14rem;
     background-color: #f8f8f8;
 }
 .location {
     float: left;
-    padding: 30px 30px 0 30px;
-    width: 180px;
+    padding: 1.8rem 1.8rem 0 1.8rem;
+    width: 11.25rem;
 }
 .location h3 {
     color: #777;
-    font-size: 20px;
-    margin-left: 8px;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
 }
 .info {
     float: left;
 }
 .info dl {
     float: left;
-    margin: 30px 40px 0 40px;
+    margin: 1.8rem 2.5rem 0 2.5rem;
     color: #777;
 }
 .info dl dt {
-    font-size: 20px;
-    margin-bottom: 25px;
+    font-size: 1.25rem;
+    margin-bottom: 1.6rem;
 }
 .info dl dd {
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 .social a {
-    font-size: 40px;
-    line-height: 215px;
+    font-size: 2.5rem;
+    line-height: 14rem;
     color: #777;
-    margin: 20px;
+    margin: 1.25rem;
 }
 /* Footer end */
 
 /* Western-dessert page start */
 
 .fl-products {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .fl-products ul li {
     float: left;
-    height: 360px;
+    height: 22.5rem;
     border: 1px solid #ccc;
-    padding: 15px;
+    padding: .94rem;
     position: relative;
 }
 .fl-products ul li a {
@@ -359,39 +359,39 @@ footer {
     font-weight: 700;
 }
 .fl-products img {
-    width: 266px;
-    height: 266px;
+    width: 16.625rem;
+    height: 16.625rem;
 }
 /* Add shopping-cart and heart above images */
 
 .fl-products ul li span {
     position: absolute;
-    bottom: 120px;
-    left: 105px;
-    font-size: 30px;
+    bottom: 7.5rem;
+    left: 6.56rem;
+    font-size: 1.88rem;
     transition: 3s;
     visibility: hidden;
     color: #fff;
 }
 .fl-products ul li span:last-child {
-    bottom: 120px;
-    left: 175px;
+    bottom: 7.5rem;
+    left: 10.94rem;
 }
 .fl-products ul li:hover span {
     visibility: visible;
 }
 
 .sl-products {
-    margin-top: 10px;
+    margin-top: .63rem;
     box-sizing: border-box;
     overflow: hidden;
 }
 
 .sl-products ul li {
     float: left;
-    height: 360px;
+    height: 22.5rem;
     border: 1px solid #ccc;
-    padding: 15px;
+    padding: .94rem;
     position: relative;
 }
 .sl-products ul li a {
@@ -402,23 +402,23 @@ footer {
     font-weight: 700;
 }
 .sl-products img {
-    width: 266px;
-    height: 266px;
+    width: 16.625rem;
+    height: 16.625rem;
 }
 /* Add shopping-cart and heart above images */
 
 .sl-products ul li span {
     position: absolute;
-    bottom: 120px;
-    left: 105px;
-    font-size: 30px;
+    bottom: 7.5rem;
+    left: 6,56rem;
+    font-size: 1.88rem;
     transition: 3s;
     visibility: hidden;
     color: #fff;
 }
 .sl-products ul li span:last-child {
-    bottom: 120px;
-    left: 175px;
+    bottom: 7.5rem;
+    left: 10.94rem;
 }
 .sl-products ul li:hover span {
     visibility: visible;
@@ -427,7 +427,7 @@ footer {
 /* Login page start */
 
 section {
-    margin: 40px 0 10px 0;
+    margin: 2.5rem 0 .625rem 0;
 }
 /* Set up background-image in form and display the content box at the center */
 
@@ -445,20 +445,20 @@ form {
 .login-content,
 .register-content {
     position: relative;
-    width: 800px;
-    height: 360px;
+    width: 50rem;
+    height: 22.5rem;
     background-color: #f8f8f8;
-    border-radius: 30px;
-    padding: 30px;
+    border-radius: 1.88rem;
+    padding: 1.88rem;
 }
 .register-box,
 .login-container {
     display: inline-block;
-    width: 500px;
+    width: 31.25rem;
     height: 100%;
     background: url(../images/bg-image.jpg) no-repeat;
     background-size: cover;
-    border-radius: 20px 0 0 20px;
+    border-radius: 1.25rem 0 0 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -468,52 +468,52 @@ form {
 .login-container span {
     color: #fff;
     font-weight: bolder;
-    font-size: 20px;
-    margin: 5px;
+    font-size: 1.25rem;
+    margin: .31rem;
 }
 .login-box,
 .register-container {
-    width: 330px;
+    width: 20.63rem;
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;border-radius: 0 30px 30px 0;
+    right: 0;border-radius: 0 1.88rem 1.88rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #777
 }
 .login-box h1 {
-    font-size: 36px;
-    margin: 60px 0 30px 0;
+    font-size: 2.25rem;
+    margin: 3.75rem 0 1.88rem 0;
 }
 .login-box input {
-    margin-bottom: 20px;
-    width: 200px;
-    height: 36px;
-    padding: 0 20px;
-    border-radius: 36px;
+    margin-bottom: 1.25rem;
+    width: 12.5rem;
+    height: 2.25rem;
+    padding: 0 1.25rem;
+    border-radius: 2.25rem;
 /* remove the default border and outline for input  */
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 1.13rem;
 }
 .login-box label,
 .register-container label {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 1.13rem;
+    margin-bottom: .31rem;
     font-weight: 900;
 }
 #login-btn,
 #register-btn {
-    margin-top: 20px;
-    width: 200px;
-    height: 40px;
+    margin-top: 1.25rem;
+    width: 12.5rem;
+    height: 2.5rem;
     background-color: #ccc;
 /* remove default border for button */
     border: none;
-    border-radius: 40px;
-    font-size: 18px;
+    border-radius: 2.5rem;
+    font-size: 1.13rem;
 }
 #login-btn,
 #register-btn:hover {
@@ -526,23 +526,23 @@ form {
     letter-spacing: 2px;
 }
 .register-container h1 {
-    font-size: 36px;
-    margin: 35px 0 20px 0;
+    font-size: 2.25rem;
+    margin: 2.19rem 0 1.25rem 0;
 }
 .register-container input {
-    margin-bottom: 10px;
-    width: 200px;
-    height: 36px;
-    padding: 0 10px;
-    border-radius: 36px;
+    margin-bottom: .625rem;
+    width: 12.5rem;
+    height: 2.25rem;
+    padding: 0 .625rem;
+    border-radius: 2.25rem;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 1.13rem;
 }
 /* Red-velvet-cake introduction start */
 
 .product {
-    margin-top: 50px;
+    margin-top: 3.13rem;
     display: flex;
     color: #777;
 }
@@ -561,7 +561,7 @@ form {
 }
 .product-description {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -571,7 +571,7 @@ form {
     font-weight: 900;
 }
 .product-description h1 {
-    margin-left: 8px;
+    margin-left: .5rem;
 }
 .product-description strong {
     color: black;
@@ -584,10 +584,10 @@ form {
 .product-description p:last-child span {
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 3px;
-    margin-right: 10px;
-    font-size: 14px;
+    border-radius: .31rem;
+    padding: .188rem;
+    margin-right: .625rem;
+    font-size: .88rem;
 }
 .product-description p:last-child span:hover {
     background-color: black;
@@ -599,8 +599,8 @@ form {
 }
 .number button {
     width: 20%;
-    height: 50px;
-    border-radius: 50px;
+    height: 3.13rem;
+    border-radius: 3.13rem;
     color: #f8f8f8;
     background-color: #777;
     border: none;
@@ -617,17 +617,19 @@ form {
 .number span {
     display: block;
     float: left;
-    height: 40px;
-    width: 25px;
+    height: 2.5rem;
+    width: 1.56rem;
     border: 1px solid #ccc;
-    line-height: 40px;
+    line-height: 2.5rem;
     text-align: center;
-    margin-top: 5px;
+    margin-top: .31rem;
 }
 .number span:nth-child(odd):hover {
     background-color: black;
     color: #fff;
 }
+
+/* Media query style */
 
 
 
