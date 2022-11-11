@@ -266,7 +266,6 @@ p {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-
 }
 .update {
     flex: 1;
@@ -645,6 +644,28 @@ form {
         margin: .1rem;
         height: 4rem;
     }
+}
+@media screen and (max-width: 1200px) {
+    .news,
+    .menu {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .words,
+    .update {
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .words::after,
+    .update::after {
+        visibility: hidden;
+    }
+    .icon {
+        left: 50%;
+        transform: translateX(-120%);
+    }
+
 }
 
 
