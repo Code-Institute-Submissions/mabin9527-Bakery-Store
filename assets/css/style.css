@@ -24,7 +24,7 @@ a {
 
 /* define a common width */
 .w {
-    width: 75rem;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,14 +33,11 @@ a {
 header {
     position: fixed;
     top: 0;
-}
-.nav-bar {
     width: 100%;
     height: 3.13rem;
 /* Changed: Add z-index and give it a higher value to avoid fixed-nav bar covered by slides images. */
     z-index: 999;
     background-color: #f8f8f8;
-}
 }
 .logo {
     float: left;
@@ -78,8 +75,8 @@ nav li a {
     margin: 1.88rem auto;
 }
 .img img {
+    display: block;
     width: 100%;
-    height: 37.5rem;
 }
 .slide label {
     display: inline-block;
@@ -307,7 +304,7 @@ footer {
 }
 .location {
     float: left;
-    padding: 1.8rem 1.8rem 0 1.8rem;
+    padding: 1.8rem 1.8rem 0;
     width: 11.25rem;
 }
 .location h3 {
@@ -320,7 +317,7 @@ footer {
 }
 .info dl {
     float: left;
-    margin: 1.8rem 2.5rem 0 2.5rem;
+    margin: 1.8rem 2.5rem 0;
     color: #777;
 }
 .info dl dt {
@@ -649,6 +646,12 @@ form {
     }
 }
 @media screen and (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+    .w {
+        width: 100vw;
+    }
     .news,
     .menu {
         flex-direction: column;
@@ -668,12 +671,38 @@ form {
         left: 50%;
         transform: translateX(-120%);
     }
+    .update {
+        margin-right: 0;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .location {
+        padding:1.8rem 1rem 0 ;
+   }
+   .info dl {
+        margin: 1.8rem 1rem 0;
+   }
 }
 @media screen and (max-width: 992px) {
-   header {
-        
-
+   /* .nav-bar {
+        display: flex;
+        justify-content: space-around;
+   } */
+   .logo {
+        margin: 0 1rem;
    }
+   /* nav {
+    display: flex;
+    justify-content: space-around;
+   } */
+   .user {
+        margin-right: 1rem;
+   }
+   
+   
+   
 }
 
 
