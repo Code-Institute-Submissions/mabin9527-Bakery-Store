@@ -39,8 +39,13 @@ header {
     z-index: 999;
     background-color: #f8f8f8;
 }
+/* Add nav-bar container to nest content to avoid position: fixed and display: flex conflict */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
-    float: left;
     margin: 0 3.13rem;
 }
 .logo a {
@@ -48,8 +53,13 @@ header {
     font-weight: bolder;
     letter-spacing: .13rem;
 }
-nav li {
-    float: left;
+/* Display content horizontally */
+
+nav ul {
+    display: flex;
+/* Maintain margin-value consistency with logo */
+    
+    margin-right: 3.13rem;
 }
 nav li a {
     display: inline-block;
@@ -57,17 +67,8 @@ nav li a {
     margin: 0 .88rem;
     font-weight: 700;
     color: #777;
-}
-.user {
-    float: right;
-/* maintain the consistentstate with logo */
-    margin-right: 3.13rem;
-}
-.user span {
-    float: right;
-    padding-top: .88rem;
-    color: #777;
-}
+} 
+
 /* Header end */
 /* Slides start */
 
