@@ -200,15 +200,10 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     bottom: 1.88rem;
     left: -1.879rem;
 }
-.words p {
+p {
     color:#777;
     margin: .63rem
 }
-
-
-
-
-
 /* Dashboard end */
 /* Daily special start */
 
@@ -351,7 +346,7 @@ footer {
 }
 
 .sl-products {
-    margin-top: .63rem;
+    margin: .63rem auto;
     box-sizing: border-box;
     overflow: hidden;
 }
