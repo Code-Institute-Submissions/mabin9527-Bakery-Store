@@ -308,9 +308,12 @@ footer {
     box-sizing: border-box;
     overflow: hidden;
 }
-
+.fl-products ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .fl-products ul li {
-    float: left;
     height: 22.5rem;
     border: 1px solid #ccc;
     padding: .94rem;
@@ -351,9 +354,12 @@ footer {
     box-sizing: border-box;
     overflow: hidden;
 }
-
+.sl-products ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .sl-products ul li {
-    float: left;
     height: 22.5rem;
     border: 1px solid #ccc;
     padding: .94rem;
@@ -498,8 +504,6 @@ form,
 .thanks-words h1 {
     text-align: center;
 }
-
-
 /* Media query style */
 
 @media screen and (max-width: 1380px) {
@@ -539,10 +543,6 @@ form,
     .update::after {
         visibility: hidden;
     }
-    .icon {
-        left: 50%;
-        transform: translateX(-120%);
-    }
     .update {
         margin-right: 0;
     }
@@ -556,6 +556,17 @@ form,
    .info dl {
         margin: 1.8rem 1rem 0;
    }
+   
+   .fl-products ul li,
+   .sl-products ul li {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .fl-products ul li:hover span,
+    .sl-products ul li:hover span {
+        visibility: hidden;
+    }
 }
 @media screen and (max-width: 992px) {
    /* .nav-bar {
