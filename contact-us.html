@@ -18,53 +18,45 @@
     <title>Bakery Store</title>
 </head>
 <body>
-    <!-- Header start -->
-
-    <header> 
-        <div class="nav-bar">    
+    <header>
+        <div class="nav-bar">
             <div class="logo">
                 <a href="index.html" target="_blank">Sweet<br>I♥ve</a>
             </div>
             <nav>
-                <ul calss="dessert">
-                    <li><a href="western-dessert.html" target="_blank">Western Dessert</a></li>
-                    <li><a href="western-dessert.html">Cantonese Dessert</a></li>
-                    <li><a href="western-dessert.html">Chinese Dessert</a></li>
-                    <li><a href="western-dessert.html">Japanese Dessert</a></li>
-                </ul>
-                <ul class="user">
-                    <li>
-                        <a href="login.html" target="_blank">Login</a>
-                        <span>|</span>
-                    </li>
-                    <li><a href="register.html" target="_blank">Register</a></li>
-                    <li><a href="index.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <ul>
+                    <li><a href="index.html" target="_blank">Homepage</a></li>
+                    <li><a href="cake.html" target="_blank">Cake</a></li>
+                    <li><a href="bread.html" target="_blank">Bread</a></li>
+                    <li><a href="contact-us.html" target="_blank">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
+        </div>
     </header>
     <!-- Header end -->
-    <!-- Login form start -->
+    <!-- Register form start -->
 
     <section>
         <form action="" method="POST">
-            <div class="login-content">
-                <a href="register.html" class="register-box" target="_blank">
-                    <span>No account yet?</span>
-                    <span>CREAT AN ACCOUNT</span>
+            <div class="contact-content">
+                <a href="index.html" class="homepage" target="_blank">
+                    Back to homepage
                 </a>
-                <div class="login-box">
-                    <h1>Sign In Your Account</h1>
-                    <label for="email-field">Email</label>
-                    <input type="email" id="email-field" name="email" placeholder="Your email">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Your password">
-                    <button id="login-btn">Login</button>
+                <div class="comment">
+                    <p>If you have any questins, comments or suggestions, please leave us a message.</p>
+                    <label for="name">Full Name</label>
+                    <input type="name" id="name" name="name" placeholder="Your Full Name">
+                    <label for="email-field">Email Address</label>
+                    <input type="email" id="email-field" name="email" placeholder="Your Email Address">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Your Comments"></textarea>
+                    <button id="submit-btn">Submit</button>
                 </div>
             </div>
         </form>
     </section>
-    <!-- Login form end -->
+    <!-- Register form end -->
     <!-- Footer start -->
 
     <footer>
@@ -108,6 +100,6 @@
             <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
     </footer>
-    
+    <!-- Footer end -->
 </body>
 </html>

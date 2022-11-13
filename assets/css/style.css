@@ -78,6 +78,7 @@ nav li a {
 .img img {
     display: block;
     width: 100%;
+    height: 100%;
 }
 .slide label {
     display: inline-block;
@@ -300,7 +301,7 @@ footer {
 }
 /* Footer end */
 
-/* Western-dessert page start */
+/* Cake page start */
 
 .fl-products {
     margin-top: 3.75rem;
@@ -388,7 +389,7 @@ footer {
     visibility: visible;
 }
 
-/* Login page start */
+/* Contact Us page start */
 
 section {
     margin: 2.5rem 0 .625rem 0;
@@ -406,17 +407,15 @@ form {
 }
 /* Define login-content and register container */
 
-.login-content,
-.register-content {
+.contact-content {
     position: relative;
-    width: 50rem;
-    height: 22.5rem;
+    width: 60rem;
+    height: 30rem;
     background-color: #f8f8f8;
     border-radius: 1.88rem;
     padding: 1.88rem;
 }
-.register-box,
-.login-container {
+.homepage {
     display: inline-block;
     width: 31.25rem;
     height: 100%;
@@ -427,33 +426,31 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.register-box span,
-.login-container span {
     color: #fff;
     font-weight: bolder;
     font-size: 1.25rem;
     margin: .31rem;
+    letter-spacing: 2px;
 }
-.login-box,
-.register-container {
-    width: 20.63rem;
+.comment {
+    width: 28.75rem;
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;border-radius: 0 1.88rem 1.88rem 0;
+    right: 0;
+    border-radius: 0 1.88rem 1.88rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #777
 }
-.login-box h1 {
-    font-size: 2.25rem;
-    margin: 3.75rem 0 1.88rem 0;
+.comment {
+    margin-top: 1.2rem;
 }
-.login-box input {
+.comment input,
+.comment textarea {
     margin-bottom: 1.25rem;
-    width: 12.5rem;
+    width: 18rem;
     height: 2.25rem;
     padding: 0 1.25rem;
     border-radius: 2.25rem;
@@ -462,14 +459,16 @@ form {
     outline: none;
     font-size: 1.13rem;
 }
-.login-box label,
-.register-container label {
+.comment textarea {
+    height: 10rem;
+    border-radius: 1rem;
+}
+.comment label {
     font-size: 1.13rem;
     margin-bottom: .31rem;
     font-weight: 900;
 }
-#login-btn,
-#register-btn {
+#submit-btn {
     margin-top: 1.25rem;
     width: 12.5rem;
     height: 2.5rem;
