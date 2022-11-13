@@ -572,6 +572,30 @@ form,
         justify-content: flex-start;
         height: auto;
     }
+    form {
+        background: url(../images/bg-image.jpg) no-repeat center;
+    }
+    .contact-content {
+        background-color: transparent;
+    }
+    .homepage {
+        display: none;
+    }
+    .comment,
+    .thanks-words {
+        position: initial;
+        margin: -2.5rem auto;
+        background-color: transparent;
+    }
+    .comment p,
+    .comment label {
+        color: #fff;
+    }
+    .thanks-words h1,
+    .thanks-words p {
+        color: #fff;
+        letter-spacing: 2px;
+    }
 }
 
 
