@@ -11,7 +11,7 @@
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
-    1. [Target Audience](#target-audience)
+    1. [Target Customer](#target-customer)
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
@@ -51,3 +51,10 @@
 - Provide a way for new and existing customers to contact the business.
 - Render essential information about the business to customers.
 
+## User Experience
+
+### Target Customer
+- People looking for a place to find delicious sweets.
+- People looking to order take away.
+- Groups of people looking for a place where they can sit down to have a chat.
+- Offer a place that people can connect internet to work or study.
