@@ -55,19 +55,23 @@ header {
 }
 /* Display content horizontally */
 
-nav ul {
+#items {
     display: flex;
 /* Maintain margin-value consistency with logo */
     
     margin-right: 3.13rem;
 }
-nav li a {
-    display: inline-block;
+#items a {
     line-height: 3.13rem;
     margin: 0 .88rem;
     font-weight: 700;
     color: #777;
 } 
+#r-nav label,
+#fold-nav {
+    display: none;
+}
+
 
 /* Header end */
 /* Slides start */
@@ -596,6 +600,36 @@ form,
         color: #fff;
         letter-spacing: 2px;
     }
+}
+@media screen and (max-width: 680px) {
+    #items a {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #ccc;
+        text-align: center;
+        background-color: #f8f8f8;
+    }
+    #items li:first-child {
+        margin-top: 3.14rem;
+    }
+    #r-nav label {
+        display: inline-block;
+        color: #777;
+        background-color: #f8f8f8;
+        padding: 10px;
+        font-size: 1.4rem;
+        position: fixed;
+        top: 0;
+        right: 3.13rem;
+    }
+    #items {
+        display: none;
+    }
+    #r-nav input:checked~#items {
+        display: block;
+    }
+   
 }
 
 
