@@ -76,3 +76,9 @@
 2. As a first time user, I want to know what type of products are included.
 3. As a first time user, I want to know what daily selection is.
 4. As a first time user, I want to show how I feel after visiting the store.
+
+#### Returning User
+5. As a returning user, I want to see the daily-special product in store.
+6. As a returnign user, I want to know the opening time of store.
+7. As a returning user, I want to find phone number to make a reservation.
+8. As a returning user, I want to leave some comments, suggestions or messages to store.
