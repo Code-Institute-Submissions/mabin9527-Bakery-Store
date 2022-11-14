@@ -68,3 +68,11 @@
 - An easy way to contact store.
 - Simple content that the user can understand easily.
 - Accessibility.
+
+### User Stories
+
+#### First-time User 
+1. As a first time user, I want to know where the bakery store is located.
+2. As a first time user, I want to know what type of products are included.
+3. As a first time user, I want to know what daily selection is.
+4. As a first time user, I want to show how I feel after visiting the store.
