@@ -58,3 +58,13 @@
 - People looking to order take away.
 - Groups of people looking for a place where they can sit down to have a chat.
 - Offer a place that people can connect internet to work or study.
+
+### User Requrements and Expectations
+
+- A simple and clear navigation system.
+- Quickly and easily to find useful information.
+- Links and functions that work as expected.
+- Good presentation and a visually appealing design regardless of screen size.
+- An easy way to contact store.
+- Simple content that the user can understand easily.
+- Accessibility.
