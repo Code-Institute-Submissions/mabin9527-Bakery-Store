@@ -648,6 +648,12 @@ form,
     .social a {
         height: 100%;
     }
+   .container {
+    display: none;
+   }
+   .dashboard {
+    margin-top: 5rem;
+   }
 }
 
 
