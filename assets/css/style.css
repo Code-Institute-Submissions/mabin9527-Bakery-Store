@@ -649,12 +649,22 @@ form,
         height: 100%;
     }
    .container {
-    display: none;
+        display: none;
    }
    .dashboard {
-    margin-top: 5rem;
+        margin-top: 5rem;
    }
+   .fl-products ul,
+   .sl-products ul {
+        flex-direction: column;
+    }
+    .fl-products ul li,
+   .sl-products ul li {
+        width: 100%;
+        border: none;
+    }
 }
+
 
 
 
