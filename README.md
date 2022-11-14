@@ -45,3 +45,9 @@
 - Find information about the bakery store.
 - Find the location of the our store.
 
+### Site Owner Goals
+- Increase in the number of customers.
+- Promote the business.
+- Provide a way for new and existing customers to contact the business.
+- Render essential information about the business to customers.
+
