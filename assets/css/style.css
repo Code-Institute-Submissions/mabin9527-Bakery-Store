@@ -67,6 +67,8 @@ header {
     font-weight: 700;
     color: #777;
 } 
+/* Hidde the icon for dropdown menu on PC side */
+
 #r-nav label,
 #fold-nav {
     display: none;
@@ -629,7 +631,23 @@ form,
     #r-nav input:checked~#items {
         display: block;
     }
-   
+    footer {
+        flex-direction: column;
+        height: 100%;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .social {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .social a {
+        height: 100%;
+    }
 }
 
 
