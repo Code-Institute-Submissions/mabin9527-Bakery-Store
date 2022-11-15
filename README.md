@@ -111,3 +111,23 @@ The website consists of five separate pages:
 - Bread page provides wide range of choices to meet the needs of all.
 - Contact page with a contact form that can collect feedback from customers, which helps store to improve service quailty.
 - Thank-you page gives customers who write down their real thinking sincere thanks.
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Google Fonts
+- Adobe Color
+- Font Awsome
+- Favicon<span>.</span>io
+
+## Features
+The page consists of five pages and fourteen features
+
+

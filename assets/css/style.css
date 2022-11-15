@@ -520,9 +520,11 @@ form,
 /* Media query style */
 
 @media screen and (max-width: 1380px) {
-    /* footer {
-        overflow: hidden;
-    } */
+/* remove white space underneath the footer when the screen is narrow down */
+
+    footer {
+        overflow-y: hidden;
+    }
     .social {
         float: left;
         margin-top: -4.3rem;
@@ -535,9 +537,6 @@ form,
     }
 }
 @media screen and (max-width: 1200px) {
-    /* body {
-        overflow-x: hidden;
-    } */
     .w {
         width: 100vw;
     }
