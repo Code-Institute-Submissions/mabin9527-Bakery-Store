@@ -139,6 +139,17 @@ The page consists of four pages
 
 ### Carousel
 - Provides customers with the most direct visual experience about star products in store.
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+- Options for the user to navigate the slide show by using indicators at the bottom of carousel.
 
 ![Carousel](docs/features/carousel.png)
+
+### Dashboard
+- Allow users to know upcoming events or any news about bakery store.
+
+![News](docs/features/dashboard.png)
+
+### Daily special
+- Allow users to see what special product is available for fllowing Sunday.
+- It will update every day which allows customers pick up their best choice.
+
+![daily-special](docs/features/daily-special.png)

@@ -208,7 +208,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     background-color: none;
     width: 0;
     height: 0;
-    border-color: transparent #f8f8f8 transparent transparent;
+    border-color: transparent #DBDBDB transparent transparent;
     position: absolute;
     bottom: 1.88rem;
     left: -1.879rem;
