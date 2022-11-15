@@ -162,7 +162,14 @@ The page consists of four pages
 
 ### Cake
 - Give an overview of cake products which allows customer to select their favourite cake.
-- Each section of the menu is accompanied with an image and its name.
+- Each line is accompanied with an image and its name.
 - Small heart allows customers to add cakes on wishlist.
 
 ![Menu](docs/features/cake.png)
+
+### Bread
+- Detailed bread list meet the requirements of all needs.
+- Clear images and name give customers deep impression.
+- Wishlist can be built via clickable herat for future purchase.
+
+![Menu](docs/features/bread.png)
