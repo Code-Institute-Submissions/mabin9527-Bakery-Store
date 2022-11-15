@@ -19,7 +19,6 @@
     2. [Colour](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
@@ -98,3 +97,17 @@ For the colour design warm grey tones that is  luxurious and elegant were chosen
 <br>
 
 ![Color scheme](docs/color-plate.png)
+
+### Fonts
+For consistency the webpage was designed by importing Lato and sans-serif font style which follows love-running project.
+<br>
+Lato and sans-serif look like simple, clean and friendly to website user.
+
+### Structure
+The page is structured in a well-known, recognizable, user friendly, and easy-to-learn way. Users will see a familiar type of navigation bar with bakery store logo on the left side and the navigation links on the other side when customers first come to our website. 
+The website consists of five separate pages: 
+- Homepage with latest infomation about store and Sunday special offers.
+- Cake page includes various birthday cakes for customers.
+- Bread page provides wide range of choices to meet the needs of all.
+- Contact page with a contact form that can collect feedback from customers, which helps store to improve service quailty.
+- Thank-you page gives customers who write down their real thinking sincere thanks.
