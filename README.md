@@ -1,7 +1,7 @@
 # Bakery Store
 (Developer: Bin Ma)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/Responsive images.png)
 
 [Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
 
