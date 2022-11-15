@@ -10,6 +10,7 @@ body {
     height: 100%;
     font-family: Lato, sans-serif;
     overflow-x: hidden;
+    background-color: #E3E3E3;
 }
 /* Set up box-container to wrap all content  */
 
@@ -42,7 +43,7 @@ header {
     height: 3.13rem;
 /* Changed: Add z-index and give it a higher value to avoid fixed-nav bar covered by slides images. */
     z-index: 999;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
 }
 /* Add nav-bar container to nest content to avoid position: fixed and display: flex conflict */
 
@@ -70,7 +71,7 @@ header {
     line-height: 3.13rem;
     margin: 0 .88rem;
     font-weight: 700;
-    color: #777;
+    color: #787878;
 } 
 /* Hidde the icon for dropdown menu on PC side */
 
@@ -165,7 +166,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 .dashboard h2 {
     text-align: center;
     font-weight: 700;
-    color: #777;
+    color: #787878;
 }
 /* For display the circle and words container horizontally, styling news container */
 
@@ -177,7 +178,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     width: 18.75rem;
     height: 18.75rem;
     border-radius: 100%;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
 /* Make dashboard img at the heart of circle container by using display: flex  */
     display: flex;
     align-items: center;
@@ -191,7 +192,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 .words {
     flex: 1;
     margin-left: 1.25rem;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
     height: 12.5rem;
     display: flex;
     flex-direction: column;
@@ -226,7 +227,7 @@ p {
     width: 18.8rem;
     height: 18.8rem;
     border-radius: 100%;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
 /* Make daily-special img at the heart of circle container by using display: flex  */
     display: flex;
     align-items: center;
@@ -247,7 +248,7 @@ p {
 .update {
     flex: 1;
     margin-right: 1.25rem;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
     height: 12.5rem;
     display: flex;
     flex-direction: column;
@@ -262,14 +263,14 @@ p {
     background-color: none;
     width: 0;
     height: 0;
-    border-color: transparent transparent transparent #f8f8f8;
+    border-color: transparent transparent transparent #DBDBDB;
     position: absolute;
     bottom: 1.88rem;
     right: -1.879rem;
 }
 .update h3 {
     text-align: center;
-    color: #777;
+    color: #787878;
 }
 /* Daily special end */
 /* Footer start */
@@ -278,14 +279,14 @@ footer {
     display: flex;
     width: 100%;
     height: 14rem;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
 }
 .location {
     padding: 1.8rem 1.8rem 0;
     width: 11.25rem;
 }
 .location h3 {
-    color: #777;
+    color: #787878;
     font-size: 1.25rem;
     margin-left: 0.5rem;
 }
@@ -295,7 +296,7 @@ footer {
 }
 .info dl {
     margin: 1.8rem 2.5rem 0;
-    color: #777;
+    color: #787878;
 }
 .info dl dt {
     font-size: 1.25rem;
@@ -307,7 +308,7 @@ footer {
 .social a {
     font-size: 2.5rem;
     line-height: 14rem;
-    color: #777;
+    color: #787878;
     margin: 1.25rem;
 }
 /* Footer end */
@@ -331,7 +332,7 @@ footer {
     position: relative;
 }
 .fl-products ul li a {
-    color: #777;
+    color: #787878;
 }
 .fl-products p {
     text-align: center;
@@ -377,7 +378,7 @@ footer {
     position: relative;
 }
 .sl-products ul li a {
-    color: #777;
+    color: #787878;
 }
 .sl-products p {
     text-align: center;
@@ -429,7 +430,7 @@ form,
     position: relative;
     width: 60rem;
     height: 30rem;
-    background-color: #f8f8f8;
+    background-color: #DBDBDB;
     border-radius: 1.88rem;
     padding: 1.88rem;
 }
@@ -460,7 +461,7 @@ form,
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #777
+    color: #787878;
 }
 .comment {
     margin-top: 1.2rem;
@@ -511,7 +512,7 @@ form,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #777
+    color: #787878;
 }
 .thanks-words h1 {
     text-align: center;
@@ -621,15 +622,15 @@ form,
         width: 100%;
         border: 1px solid #ccc;
         text-align: center;
-        background-color: #f8f8f8;
+        background-color: #DBDBDB;
     }
     #items li:first-child {
         margin-top: 3.14rem;
     }
     #r-nav label {
         display: inline-block;
-        color: #777;
-        background-color: #f8f8f8;
+        color: #787878;
+        background-color: #DBDBDB;
         padding: 10px;
         font-size: 1.4rem;
         position: fixed;

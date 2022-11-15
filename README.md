@@ -1,7 +1,7 @@
 # Bakery Store
 (Developer: Bin Ma)
 
-![Mockup image](docs/Responsive images.png)
+![Mockup image](docs/Responsive-images.png)
 
 [Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
 
@@ -91,7 +91,7 @@
 ## Design
 
 ### Design Choices
-The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+The webpage was designed for customers feeling personally on the scences. It is calm, warm and 
 Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
 
 ### Colour
