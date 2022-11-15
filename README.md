@@ -159,3 +159,10 @@ The page consists of four pages
 - Consists of three seperate sections: location, useful information including about-us, help-center, customer service and opening. And lastly store can be followed by popular social media.
 
 ![Footer](docs/features/footer.png)
+
+### Cake
+- Give an overview of cake products which allows customer to select their favourite cake.
+- Each section of the menu is accompanied with an image and its name.
+- Small heart allows customers to add cakes on wishlist.
+
+![Menu](docs/features/cake.png)
