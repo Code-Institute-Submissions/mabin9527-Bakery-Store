@@ -82,3 +82,8 @@
 6. As a returnign user, I want to know the opening time of store.
 7. As a returning user, I want to find phone number to make a reservation.
 8. As a returning user, I want to leave some comments, suggestions or messages to store.
+
+#### Store Owner 
+13. As the store owner, I want users to find news about upcoming events or changes in opening time.
+14. As the store owner, I want users to get to know the latest product launched. 
+15. As the store owner, I want the users to be able to contact us.
