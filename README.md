@@ -153,3 +153,9 @@ The page consists of four pages
 - It will update every day which allows customers pick up their best choice.
 
 ![daily-special](docs/features/daily-special.png)
+
+### Footer
+- Featured on all four pages
+- Consists of three seperate sections: location, useful information including about-us, help-center, customer service and opening. And lastly store can be followed by popular social media.
+
+![Footer](docs/features/footer.png)
