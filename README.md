@@ -93,7 +93,7 @@
 The webpage was designed for customers feeling personally on the scences. It is attractive and impressive. Plenty of the images on the page showed exactly what products have in store.
 
 ### Colour
-For the colour design warm grey tones that is  luxurious and elegant were chosen to match the images on the page and also the colour theme of the actual bakery store. To narrow down the colours I used Adobe Color which assists me with better vision feeling.
+For the colour design warm grey tones that is luxurious and elegant were chosen to match the images on the page and also the colour theme of the actual bakery store. To narrow down the colours I used Adobe Color which assists me with better vision feeling.
 <br>
 
 ![Color scheme](docs/color-plate.png)
@@ -105,12 +105,11 @@ Lato and sans-serif look like simple, clean and friendly to website user.
 
 ### Structure
 The page is structured in a well-known, recognizable, user friendly, and easy-to-learn way. Users will see a familiar type of navigation bar with bakery store logo on the left side and the navigation links on the other side when customers first come to our website. 
-The website consists of five separate pages: 
+The website consists of four separate pages: 
 - Homepage with latest infomation about store and Sunday special offers.
 - Cake page includes various birthday cakes for customers.
 - Bread page provides wide range of choices to meet the needs of all.
 - Contact page with a contact form that can collect feedback from customers, which helps store to improve service quailty.
-- Thank-you page gives customers who write down their real thinking sincere thanks.
 
 ## Technologies Used
 
@@ -128,6 +127,12 @@ The website consists of five separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of five pages and fourteen features
+The page consists of four pages
 
+### Logo and Navigation Bar
 
+- To provide the user with simple and clean navigation across all four pages, the header includes the navigation bar at the top right hand and the logo ‘Sweet I♥ve’ with lovely red color on the top left corner, which creates some space in between both, as well as making it clear on first sight what the site is about and where the navigation can be found. The navigation bar includes Homepage, Cake, Bread and Contact page.
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes clickable links to relevant page.
+- The link for the page the user is currently on is highlighted by underline.
+
+![Logo and navbar](docs/features/nav-bar.png)
