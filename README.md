@@ -1,7 +1,7 @@
 # Bakery Store
 (Developer: Bin Ma)
 
-![Mockup image](docs/Responsive-images.png)
+![Mockup image](docs/responsive-images.png)
 
 [Live webpage](https://4n4ru.github.io/CI_MS1_BodelschwingherHof/)
 
@@ -91,9 +91,10 @@
 ## Design
 
 ### Design Choices
-The webpage was designed for customers feeling personally on the scences. It is calm, warm and 
-Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
+The webpage was designed for customers feeling personally on the scences. It is attractive and impressive. Plenty of the images on the page showed exactly what products have in store.
 
 ### Colour
-For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+For the colour design warm grey tones that is  luxurious and elegant were chosen to match the images on the page and also the colour theme of the actual bakery store. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
 <br>
+
+![Color scheme](docs/color-plate.png)
