@@ -136,3 +136,9 @@ The page consists of four pages
 - The link for the page the user is currently on is highlighted by underline.
 
 ![Logo and navbar](docs/features/nav-bar.png)
+
+### Carousel
+- Provides customers with the most direct visual experience about star products in store.
+- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+
+![Carousel](docs/features/carousel.png)
