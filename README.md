@@ -87,3 +87,13 @@
 13. As the store owner, I want users to find news about upcoming events or changes in opening time.
 14. As the store owner, I want users to get to know the latest product launched. 
 15. As the store owner, I want the users to be able to contact us.
+
+## Design
+
+### Design Choices
+The webpage was designed with the feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+Some of the imagery on the page has a round shape with a border to resemble food served on a plate.
+
+### Colour
+For the colour sheme warm brown tones were chosen to match the images on the page and also the colour theme of the actual restaurant. To narrow down the colours I used Adobe Color. After deciding on the colour I tested them on WebAIM to make sure the contrast between them was right.
+<br>

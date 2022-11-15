@@ -7,11 +7,14 @@
     padding: 0;
 }
 body {
+    height: 100%;
     font-family: Lato, sans-serif;
-/* add height to body for vision purpose
-    height: 3000px; */
+    overflow-x: hidden;
 }
-
+.box {
+    width: 100%;
+    height: 100%;
+}
 /* remove default list style */
 li {
     list-style: none;
@@ -152,7 +155,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     z-index: 9;
 }
 /* Slides End */
-/* Dasboard start */
+/* Dashboard start */
 
 .dashboard {
     margin-bottom: 3.13rem;
@@ -162,7 +165,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
     font-weight: 700;
     color: #777;
 }
-/* For dispaly the circle and words container horizontally, styling news container */
+/* For display the circle and words container horizontally, styling news container */
 
 .news {
     display: flex;
@@ -181,7 +184,6 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 }
 .circle img {
     width: 15.63rem;
-    height: 15.63rem;
     border-radius: 100%;
 }
 .words {
@@ -232,7 +234,7 @@ p {
 }
 .circle1 img {
     width: 15.63rem;
-    height: 15.63rem;
+    /* height: 15.63rem; */
     border-radius: 100%;
 }
 .menu {
@@ -287,6 +289,7 @@ footer {
 }
 .info {
     display: flex;
+    justify-content: space-between;
 }
 .info dl {
     margin: 1.8rem 2.5rem 0;
@@ -404,7 +407,7 @@ footer {
 /* Contact Us page start */
 
 section {
-    margin: 2.5rem 0 .625rem 0;
+    margin: 2.5rem 0.625rem 0;
 }
 /* Set up background-image in form and display the content box at the center */
 
@@ -514,9 +517,9 @@ form,
 /* Media query style */
 
 @media screen and (max-width: 1380px) {
-    footer {
+    /* footer {
         overflow: hidden;
-    }
+    } */
     .social {
         float: left;
         margin-top: -4.3rem;
@@ -529,9 +532,9 @@ form,
     }
 }
 @media screen and (max-width: 1200px) {
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
     .w {
         width: 100vw;
     }
@@ -542,6 +545,7 @@ form,
     }
     .words,
     .update {
+        box-sizing: border-box;
         margin-top: 1rem;
         width: 100%;
         text-align: center;
@@ -557,9 +561,12 @@ form,
     footer {
         display: flex;
         justify-content: space-around;
+        width: 100%;
+        padding: 1.2rem;
     }
     .location {
-        padding:1.8rem 1rem 0 ;
+        padding: 1.8rem 1rem 0;
+        box-sizing: border-box;
    }
    .info dl {
         margin: 1.8rem 1rem 0;
@@ -668,23 +675,45 @@ form,
 }
 @media screen and (max-width: 500px) {
     html {
-        font-size: 20px;
+        font-size: 15px;
     }
-    .dashboard h2 {
-        margin-left: 1.5rem;
+    .location {
+        box-sizing: border-box;
+        padding: 0;
     }
     .circle,
     .circle1 {
-        margin-left: 2rem;
+        box-sizing: border-box;
     }
-    .update {
-        margin-left: 2rem;
+    .circle1 img {
+        width: 80%;
+    }
+    .words {
+        margin-left: -.2rem;
+        width: 100%;
     }
     .logo {
         margin-left: 1.2rem;
     }
-    
-    
+    footer {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .info dl{
+		box-sizing: border-box;
+	}
+    .info dl dt{
+		font-size: 14px;
+	}
+	.info dl dd{
+		font-size: 12px;
+	}
+	.social{
+		display: flex;
+		justify-content:space-around; 
+	}
 }
 
 
