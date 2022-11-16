@@ -181,4 +181,24 @@ The page consists of four pages
 
 ![Thank You](docs/features/thank-you.png)
 
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. There is no errors found across all five pages.
+<details><summary>Homepage</summary>
+<img src="docs/validation/validation-html-index.png">
+</details>
+<details><summary>Cake</summary>
+<img src="docs/validation/validation-html-cake.png">
+</details>
+<details><summary>Bread</summary>
+<img src="docs/validation/validation-html-bread.png">
+</details>
+<details><summary>Contact-Us</summary>
+<img src="docs/validation/validation-html-contact.png">
+</details>
+<details><summary>Thank-You</summary>
+<img src="docs/validation/validation-html-thanks.png">
+</details>
+
 
