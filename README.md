@@ -184,7 +184,7 @@ The page consists of four pages
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website. There is no errors found across all five pages.
+The W3C Markup Validation Service was used to validate the HTML of the website. There is no errors found across all five pages. 
 <details><summary>Homepage</summary>
 <img src="docs/validation/validation-html-index.png">
 </details>
@@ -199,6 +199,13 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 </details>
 <details><summary>Thank-You</summary>
 <img src="docs/validation/validation-html-thanks.png">
+</details>
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate CSS of the website.
+There was no error found on CSS file.
+<details><summary>style.css</summary>
+<img src="docs/validation/validation-css-style.png">
 </details>
 
 
