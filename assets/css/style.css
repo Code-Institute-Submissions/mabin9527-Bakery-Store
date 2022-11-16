@@ -205,7 +205,7 @@ input[type=radio]:nth-child(4):checked~div.img>ul>li:not(:nth-child(4)){
 .words::after {
     content:"";
     border: .94rem solid #ccc;
-    background-color: none;
+    background-color: transparent;
     width: 0;
     height: 0;
     border-color: transparent #DBDBDB transparent transparent;
@@ -260,7 +260,7 @@ p {
 .update::after {
     content:"";
     border: .94rem solid #ccc;
-    background-color: none;
+    background-color: transparent;
     width: 0;
     height: 0;
     border-color: transparent transparent transparent #DBDBDB;
