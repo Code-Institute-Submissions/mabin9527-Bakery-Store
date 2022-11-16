@@ -88,7 +88,7 @@
 ### Design Choices
 The webpage was designed for customers feeling personally on the scences. It is attractive and impressive. Plenty of the images on the page showed exactly what products have in store.
 
-### Colour
+### Color
 For the colour design warm grey tones that is luxurious and elegant were chosen to match the images on the page and also the colour theme of the actual bakery store. To narrow down the colours I used Adobe Color which assists me with better vision feeling.
 <br>
 
@@ -124,7 +124,7 @@ The website consists of five separate pages:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of four pages
+The page consists of five pages
 
 ### Logo and Navigation Bar
 
@@ -212,6 +212,7 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 <details><summary>Mobile</summary>
 <img src="docs/validation/lighthouse-performance-mobile.png">
+</details>
 
 ## Bugs
 
@@ -225,6 +226,42 @@ The website was deployed using GitHub Pages by following these steps:
 2. Select Pages on the left side hand
 3. Select Branch: master for the source 
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://mabin9527.github.io/Bakery-Store/"
+
+## Credits
+
+### Media
+
+- [Slider1](assets/images/Slider1.jpg): Photo by <a href="https://www.pexels.com/photo/cake-chocolate-cream-crepe-264939/">Pixabay</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [Slider2](assets/images/Slider2.jpg): Photo by <a href="https://www.pexels.com/photo/photo-of-cake-2928378/">Cats Coming</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [Slider3](assets/images/Slider3.jpg): Photo by <a href="https://www.pexels.com/photo/shallow-focus-photo-of-sliced-cake-on-black-ceramic-tray-1860203/">Valeria Boltneva</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [Slider4](assets/images/Slider4.jpg): Photo by <a href="https://www.pexels.com/photo/sliced-cake-on-plate-291528/">Abhinav Goswami</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [Dashborard1](assets/images/Dashboard1.jpg): Photo by <a href="https://www.pexels.com/photo/cake-decorated-with-berries-4686833/">cottonbro studio</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [Special](assets/images/Special.jpg): Photo by <a href="https://www.pexels.com/photo/berries-blueberries-cake-cream-236804/">Pixabay</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+- [red-velvet-cake](assets/images/red-velvet-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [oreo-cake](assets/images/oreo-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [coffee-birthday-cake](assets/images/coffee-birthday-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [vanilla-buttercream](assets/images/vanilla-buttercream.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [biscoff-cake](assets/images/biscoff-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [black-forest-cake](assets/images/black-forest-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [happy-birthday-cake](assets/images/happy-birthday-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [kinder-bueno-cake](assets/images/kinder-bueno-cake.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/cakes/"> The Natural Bakery </a>
+- [Guinness-Bread](assets/images/Guinness-Bread.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Large-Honey-Spelt](assets/images/Large-Honey-spelt.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Large-Multigrain-Pan](assets/images/Large-Multigrain-Pan.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Large-White-Pan](assets/images/Large-White-Pan.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Sourdough](assets/images/Sourdough.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [White-Turnover](assets/images/White-Turnover.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Wholemeal-Pan](assets/images/Wholemeal-Pan.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [Round-Brown-Soda](assets/images/Round-Brown-Soda.jpeg): Photo from <a href="https://thenaturalbakery.ie/product-category/breads/"> The Natural Bakery </a>
+- [bg-image](assets/images/bg-image.jpg): Photo by <a href="https://www.pexels.com/photo/shallow-focus-photography-of-chocolate-cupcakes-1028714/">Acharaporn Kamornboonyarush</a> on <a href="https://www.pexels.com/zh-cn/search/cake/">Pexels</a>
+
+### Code
+
+Part of CSS code for carousel was referenced form cloud.tencent.com article no.1774625, which is clean and powerful.
+
+## Acknowledgements
+
+There were many chanllenges ahead of me when I digged into my first project. I was struggled with complicated webpages when I try different media query. Here I want to thank my mentor Martina who suggested me to remove some complex and unnecessary contents, which helps me a lot. Besides, efficient and sufficient feedback supported me to finish project 1.
 
 
 
