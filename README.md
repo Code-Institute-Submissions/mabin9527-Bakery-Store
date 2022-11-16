@@ -26,14 +26,11 @@
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+    3. [Performance](#performance)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
 
@@ -215,5 +212,14 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 <details><summary>Mobile</summary>
 <img src="docs/validation/lighthouse-performance-mobile.png">
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Flex box can disable position: fixed on header | Add an extra container nest header and define the outer container position: fixed |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Narrow down screen cause white space on the right side | Add overflow-x: hidden to w container |
+
 
 
