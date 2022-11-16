@@ -215,11 +215,18 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 ## Bugs
 
-| **Bug** | **Fix** |
-| ----------- | ----------- |
-| Flex box can disable position: fixed on header | Add an extra container nest header and define the outer container position: fixed |
-| The user can submit a contact form input without a message | Add required attribute to message input field |
-| Narrow down screen cause white space on the right side | Add overflow-x: hidden to w container |
+- Flex box can disable position: fixed on header. Fixed: Add an extra container nest header and define the outer container position: fixed.
+- The user can submit a contact form input without a message. Fixed: Add required attribute to message input field 
+- Narrow down screen cause white space on the right side. Fixed: Add overflow-x: hidden to w container.
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. Navigate to the Settings tab in GitHub repository 
+2. Select Pages on the left side hand
+3. Select Branch: master for the source 
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://mabin9527.github.io/Bakery-Store/"
+
+
 
 
 
