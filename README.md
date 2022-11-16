@@ -26,7 +26,6 @@
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
@@ -207,5 +206,14 @@ There was no error found on CSS file.
 <details><summary>style.css</summary>
 <img src="docs/validation/validation-css-style.png">
 </details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. The page achieved great performance on desktop and mobile.
+
+<details><summary>Desktop</summary>
+<img src="docs/validation/lighthouse-performance-desktop.png">
+</details>
+<details><summary>Mobile</summary>
+<img src="docs/validation/lighthouse-performance-mobile.png">
 
 
