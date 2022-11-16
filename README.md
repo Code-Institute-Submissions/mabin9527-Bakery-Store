@@ -83,9 +83,9 @@
 8. As a returning user, I want to leave some comments, suggestions or messages to store.
 
 #### Store Owner 
-13. As the store owner, I want users to find news about upcoming events or changes in opening time.
-14. As the store owner, I want users to get to know the latest product launched. 
-15. As the store owner, I want the users to be able to contact us.
+9. As the store owner, I want users to find news about upcoming events or changes in opening time.
+10. As the store owner, I want users to get to know the latest product launched. 
+11. As the store owner, I want the users to be able to contact us.
 
 ## Design
 
@@ -105,11 +105,12 @@ Lato and sans-serif look like simple, clean and friendly to website user.
 
 ### Structure
 The page is structured in a well-known, recognizable, user friendly, and easy-to-learn way. Users will see a familiar type of navigation bar with bakery store logo on the left side and the navigation links on the other side when customers first come to our website. 
-The website consists of four separate pages: 
+The website consists of five separate pages: 
 - Homepage with latest infomation about store and Sunday special offers.
 - Cake page includes various birthday cakes for customers.
 - Bread page provides wide range of choices to meet the needs of all.
 - Contact page with a contact form that can collect feedback from customers, which helps store to improve service quailty.
+- Thank-you page would like to give users who left their real thinking a sincere thanks.
 
 ## Technologies Used
 
@@ -131,7 +132,7 @@ The page consists of four pages
 
 ### Logo and Navigation Bar
 
-- To provide the user with simple and clean navigation across all four pages, the header includes the navigation bar at the top right hand and the logo ‘Sweet I♥ve’ with lovely red color on the top left corner, which creates some space in between both, as well as making it clear on first sight what the site is about and where the navigation can be found. The navigation bar includes Homepage, Cake, Bread and Contact page.
+- To provide the user with simple and clean navigation across all five pages, the header includes the navigation bar at the top right hand and the logo ‘Sweet I♥ve’ with lovely red color on the top left corner, which creates some space in between both, as well as making it clear on first sight what the site is about and where the navigation can be found. The navigation bar includes Homepage, Cake, Bread and Contact page.
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes clickable links to relevant page.
 - The link for the page the user is currently on is highlighted by underline.
 
@@ -165,11 +166,19 @@ The page consists of four pages
 - Each line is accompanied with an image and its name.
 - Small heart allows customers to add cakes on wishlist.
 
-![Menu](docs/features/cake.png)
+![Cake](docs/features/cake.png)
 
 ### Bread
 - Detailed bread list meet the requirements of all needs.
 - Clear images and name give customers deep impression.
 - Wishlist can be built via clickable herat for future purchase.
 
-![Menu](docs/features/bread.png)
+![Bread](docs/features/bread.png)
+
+### Thank You
+- Upon submitting the form the user will be redirected to a new page, which will thank them for signing up 
+- If they left a comment someone will respond within 48 hrs. No user information will be stored.
+
+![Thank You](docs/features/thank-you.png)
+
+
