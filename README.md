@@ -171,6 +171,11 @@ The page consists of five pages
 
 ![Bread](docs/features/bread.png)
 
+### Contact Us
+- Show customers the way to give us feedback to improve our service quality.
+
+![Contact Us](docs/features/contact-form.png)
+
 ### Thank You
 - Upon submitting the form the user will be redirected to a new page, which will thank them for signing up 
 - If they left a comment someone will respond within 48 hrs. No user information will be stored.
